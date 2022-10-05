@@ -19,7 +19,9 @@ It also includes a few pre-designed loops, for which parameters like gains and f
 
 ## Licensing 
 
-This library is provided as-is without any warranty, guarentee or liability. Author is not responsible for the use of this code for any purpose, anywhere. However, the code here is provided under non-commercial usage terms. You as a user are permitted to use this code, make derivatives but proper accredition is required along with inclusion of this license. Use for commercial purposes requires explicit permission from original author. 
+This library is provided as-is without any warranty, guarentee or liability. Author is not responsible for the use of this code for any purpose, anywhere. However, the code here is provided under non-commercial usage terms. You as a user are permitted to use this code, make derivatives but proper accredition is required along with inclusion of this license. 
+
+Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)
 
 ## Examples
 
