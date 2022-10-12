@@ -1,37 +1,12 @@
 /*
+    This library is based on github.com/pms67 -> https://github.com/pms67/HadesFCS/tree/master/Filtering
 
-sigLib - A simple signal processing library
+    So for filter implementation please use the vscode program developed by him for now.
 
-This library provides simple signal processing capability which can be integrated in microcontroller or other application environments.
 
-This library contains following functions;
-  - Filters with circular buffers | order adjusted
-    - based on custom impulse response
-    - Low pass
-    - High pass
-    - Band pass
-    - Band stop
-    - average
-  - PID controller | discrete
-    - P
-    - PI
-    - PI & D
-    - PID
-  
-  
-  
-  ---> later
-  
-    mpc
-    lqr
-    feedforward
-    fopid
-    ? kalman integration ??
-  ----
-  
-  
-
+    Later iterations of this library will hopefully become standalone and will not need external computation.
 */
+
 #include <stdint.h>
 
 /*

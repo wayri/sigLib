@@ -1,5 +1,13 @@
 #include "sigmain.h"
 
+/*
+    This library is based on github.com/pms67 -> https://github.com/pms67/HadesFCS/tree/master/Filtering
+
+    So for filter implementation please use the vscode program developed by him for now.
+
+
+    Later iterations of this library will hopefully become standalone and will not need external computation.
+*/
 
 static float h_filter[LEN_FILT] = {1, 1, 1, 1, 1, 1, 1, 1, 1, 1};   // impulse response in discrete time domain // coefficients of the diff. eqn
 
