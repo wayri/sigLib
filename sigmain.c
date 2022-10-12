@@ -1,7 +1,7 @@
 #include "sigmain.h"
 
 
-static float h_filter[LEN_FILT] = {1, 1, 1, 1, 1, 1, 1, 1, 1, 1};   // impulse response in discrete time domain
+static float h_filter[LEN_FILT] = {1, 1, 1, 1, 1, 1, 1, 1, 1, 1};   // impulse response in discrete time domain // coefficients of the diff. eqn
 
 void finit(filter *f){
 
