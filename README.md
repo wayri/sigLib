@@ -3,9 +3,9 @@
 
 `sigLib` is a lightweight, pure C library tailored for digital signal processing and control systems. It is designed to be highly portable, reentrant, and simple to integrate into embedded systems (like microcontrollers) or PC-side simulations.
 
-## ✨ Features
+## Features
 
-### 🎛️ Control Systems
+### Control Systems
 - **PID Controller**: Standard implementation of Proportional, Integral, and Derivative control.
 - **PI Controller**: Fast, simplified PI loop.
 - **I-PD & PI-D Controllers**: Advanced variants that prevent *setpoint kick* on the derivative and proportional terms.
@@ -14,13 +14,13 @@
 - **Level Trigger**: Integer state trigger with tunable hysteresis for noisy signals.
 - **Watchdog Window Monitor**: 2-level window fault detection (Under-fault, OK, Over-fault).
 
-### 📶 Signal Processing
+### Signal Processing
 - **Universal Filter Engine**: A robust Direct Form I difference equation engine that can execute both **FIR** (Feedforward) and **IIR** (Feedback) filters.
 - **Native Biquad Designer**: Automatically compute 2nd-order Butterworth coefficients (`a` and `b` arrays) on the fly for Low-Pass (LPF) and High-Pass (HPF) filters using your cutoff and sampling frequencies.
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### 1. Control Systems Example
 
@@ -75,7 +75,7 @@ if (status == -1) printf("Undervoltage!");
 
 ---
 
-## 📂 Examples Directory
+## Examples Directory
 Check the `examples/` folder for compilable C programs demonstrating the library:
 - `ex1_pid_control.c` - Basic PI-D loop with system simulation.
 - `ex2_filter.c` - Basic FIR moving average implementation.
@@ -86,7 +86,7 @@ Check the `examples/` folder for compilable C programs demonstrating the library
 
 ---
 
-## ⚖️ Licensing 
+## Licensing 
 
 This library is provided as-is without any warranty, guarantee or liability. Author is not responsible for the use of this code for any purpose, anywhere. However, the code here is provided under non-commercial usage terms. You as a user are permitted to use this code, make derivatives but proper accreditation is required along with inclusion of this license. 
 
